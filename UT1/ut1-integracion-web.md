@@ -55,7 +55,8 @@
 
 ### 2 Documento HTML + JavaScript
 **HTML**
-```<section aria-labelledby="titulo-tareas">
+```
+<section aria-labelledby="titulo-tareas">
   <h2 id="titulo-tareas">Tareas pendientes</h2>
   <form id="form-tarea">
     <label for="nombre-tarea">Nueva tarea</label>
@@ -69,6 +70,7 @@
 ```
 --------------------------------------------------
 **JavaScript**
+```
 const formulario = document.querySelector('#form-tarea');
 const lista = document.querySelector('#lista-tareas');
 const estado = document.querySelector('#estado');
@@ -88,4 +90,4 @@ if (formulario && lista && estado) {
     formulario.reset();
   });
 }
-
+```
