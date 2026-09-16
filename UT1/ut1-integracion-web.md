@@ -5,7 +5,25 @@
 4. Calcular el importe definitivo de una factura: Ambos ya que el cliente puede calcularlo por si mismo pero el servidor nos dirá el precio de cada producto si esa factura es un pago por internet
 5. Conservar el tema claro u oscuro en un único dispositivo: Cliente ya que no depende de acceder a ninguna web ni servidor, solo depende del mismo dispositivo
 6. Compartir el progreso de un curso entre móvil y portátil: Servidor ya que se encargará de calcular el tanto por ciento de lo que lleva recorrido dicho dispositivo haciendo de forma dinámica para cada uno
-# Tarea 2
+   
+# Tarea 2 - Nike
+1. Elements: localiza el encabezado principal y consulta su rol accesible.
+   <img width="693" height="530" alt="image" src="https://github.com/user-attachments/assets/ced8283d-cf23-4160-9428-3db8acfef833" />
+
+2. Network: recarga, identifica el documento y distingue su estado y tipo MIME.
+   <img width="686" height="706" alt="image" src="https://github.com/user-attachments/assets/6efddd06-c61b-4f49-ae16-d63bd0a6e661" />
+
+3. Application: comprueba qué mecanismos de almacenamiento utiliza, sin modificar datos ajenos.
+   <img width="678" height="478" alt="image" src="https://github.com/user-attachments/assets/1fee5c29-abeb-44cb-a5d2-5063e06b18fd" />
+
+4. Console: ejecuta 'geolocation' in navigator y explica qué demuestra y qué no.
+   <img width="661" height="462" alt="image" src="https://github.com/user-attachments/assets/94340cac-03aa-4e42-b458-aa0622ea7bae" />
+
+5. Device toolbar: simula un ancho estrecho; no confundas simulación visual con prueba en dispositivo real.
+   <img width="1106" height="715" alt="image" src="https://github.com/user-attachments/assets/02c1bbef-88ce-43ff-8516-678456eb1a0e" />
+
+6. Lighthouse o Accessibility: registra un aviso y verificalo manualmente antes de concluir.
+   <img width="678" height="510" alt="image" src="https://github.com/user-attachments/assets/65d774b3-ce04-444c-9d7f-50c52d82c659" />
 
 # Tarea 3
 
