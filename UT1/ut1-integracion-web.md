@@ -55,7 +55,7 @@
 
 ### 2 Documento HTML + JavaScript
 **HTML**
-<section aria-labelledby="titulo-tareas">
+```<section aria-labelledby="titulo-tareas">
   <h2 id="titulo-tareas">Tareas pendientes</h2>
   <form id="form-tarea">
     <label for="nombre-tarea">Nueva tarea</label>
@@ -66,7 +66,7 @@
   <ul id="lista-tareas"></ul>
 </section>
 <script type="module" src="/js/tareas.js"></script>
-
+```
 --------------------------------------------------
 **JavaScript**
 const formulario = document.querySelector('#form-tarea');
