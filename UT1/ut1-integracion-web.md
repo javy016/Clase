@@ -26,7 +26,12 @@
    <img width="678" height="510" alt="image" src="https://github.com/user-attachments/assets/65d774b3-ce04-444c-9d7f-50c52d82c659" />
 
 # Tarea 3
-
+1. Abrir y cerrar información adicional: HTML
+2. Validar que un correo tenga una forma básica: HTML
+3. Consultar disponibilidad sin abandonar el formulario: JavaScript
+4. Mostrar una cuadrícula en una columna en pantallas estrechas: HTML/CSS
+5. Autorizar el acceso de una persona administradora: JavaScript
+6. Calcular una previsualización no vinculante de una cuota: JavaScript
 
 
 
