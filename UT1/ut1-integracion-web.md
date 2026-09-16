@@ -38,12 +38,19 @@
 # Tarea 4
 ## 1. Diseño de capas
 ### 1.1 Capa arquitectura cliente/servidor
+<br>
 <img width="895" height="663" alt="image" src="https://github.com/user-attachments/assets/2b4d3a40-5e82-4260-a2fe-5fa7a91ec33d" />
+<br>
 ### 1.2 Capa capacidades del navegador
+<br>
 <img width="893" height="703" alt="image" src="https://github.com/user-attachments/assets/7e225a9c-de84-469b-808d-5c4e4af302b1" />
+<br>
 ### 1.3 Capa lenguajes de cliente y scripts
+<br>
 <img width="894" height="277" alt="image" src="https://github.com/user-attachments/assets/1ff7e205-d753-43d3-9c2a-04d1d82a01cd" />
+<br>
 ### 1.4 Capa integración entre marcas y programación
+<br>
 <img width="659" height="778" alt="image" src="https://github.com/user-attachments/assets/368bd29f-8491-48e2-87e8-3d01f64f989d" />
 
 ### 2 Documento HTML + JavaScript
