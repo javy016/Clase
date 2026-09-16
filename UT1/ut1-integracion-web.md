@@ -5,7 +5,8 @@
 4. Calcular el importe definitivo de una factura: Ambos ya que el cliente puede calcularlo por si mismo pero el servidor nos dirá el precio de cada producto si esa factura es un pago por internet
 5. Conservar el tema claro u oscuro en un único dispositivo: Cliente ya que no depende de acceder a ninguna web ni servidor, solo depende del mismo dispositivo
 6. Compartir el progreso de un curso entre móvil y portátil: Servidor ya que se encargará de calcular el tanto por ciento de lo que lleva recorrido dicho dispositivo haciendo de forma dinámica para cada uno
-   
+
+</br>
 # Tarea 2 - Nike
 1. Elements: localiza el encabezado principal y consulta su rol accesible.
    <img width="693" height="530" alt="image" src="https://github.com/user-attachments/assets/ced8283d-cf23-4160-9428-3db8acfef833" />
