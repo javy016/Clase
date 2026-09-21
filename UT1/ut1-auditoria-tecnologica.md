@@ -2,7 +2,7 @@
 # 1. Parte A - Reconstrucción cliente/servidor
 ![alt text](image.png)
 
-```mermaid
+mermaid
 flowchart TB
     A(["Start"]) --> B{"Mandar peticion"}
     B --> C["El navegador recibe la petición"]
