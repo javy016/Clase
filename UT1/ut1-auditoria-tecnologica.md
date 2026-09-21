@@ -19,5 +19,5 @@ En este ejemplo podemos comprobar el html que hace uso de mains para crear como 
 # 4. Parte D - Marcas y programación
 ![alt text](image-2.png)
 
-Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios
+Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios, pero escribiria el código en español en vez de inglés para mayor facilidad para nike españa
 # 5. Parte E - Herramientas y prueba
