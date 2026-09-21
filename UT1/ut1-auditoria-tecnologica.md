@@ -2,7 +2,7 @@
 # 1. Parte A - Reconstrucción cliente/servidor
 ![alt text](image.png)
 
-´´´
+´´´mermaid
 ---
 config:
   theme: redux
@@ -12,4 +12,4 @@ flowchart TB
     B --> C["El navegador recibe la petición"]
     C --> n1["El navegador nos manda la respuesta"]
     ´´´
-    mermaid
+    
