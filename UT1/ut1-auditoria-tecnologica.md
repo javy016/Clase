@@ -14,7 +14,8 @@ flowchart TB
 En mi caso escogí las cookies que resuelve la persistencia de datos para mantener los productos en el carrito de compras, recordar sesiones  realizar seguimiento de cashback. Nos pone una notificación para aceptar o denegar el permiso, si se deniega se producen fallos técnicos como la pérdida de dicho carrito de compras, cierre sesión inmediato, etc. Y este mete riesgos de privacidad con el perfil sobre la publicidad. Como alternativa esta acceder desde la aplicación móvil.
 
 # 3. Parte C - Lenguajes y Scripts
-![alt text](image-1.png)
+<img width="437" height="208" alt="image" src="https://github.com/user-attachments/assets/0810719e-d5fd-4e6a-8821-822b1ab10a1b" />
+
 En este ejemplo podemos comprobar el html que hace uso de mains para crear como cuadros de su catálogo, también tenemos el css para dar diseño y el javascript para hacer cosas como puede ser seleccionar métodos de pago
 
 # 4. Parte D - Marcas y programación
