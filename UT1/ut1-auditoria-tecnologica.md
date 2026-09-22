@@ -8,8 +8,8 @@
 ```mermaid
 flowchart TB
     A(["Start"]) --> B{"Mandar peticion"}
-    B --> C["El navegador recibe la petición"]
-    C --> n1["El navegador nos manda la respuesta"]
+    B --> C["El servidor recibe la petición"]
+    C --> n1["El servidor nos manda la respuesta"]
 ```
 
 # 2. Parte B - Capacidades del navegador
