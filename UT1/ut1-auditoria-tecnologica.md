@@ -28,8 +28,7 @@ Por lo general veo el código muy bien estructurado y simplificado sin necesidad
 
 # 5. Parte E - Herramientas y prueba
 1. observación manual con DevTools;
- <br>
-Realiza correctamente los cambios de tamaño correctamente redimensionando automáticamente
+Realiza correctamente los cambios de tamaño correctamente redimensionando automáticamente.
    <br>
 2. validación estática de HTML o CSS;
 <br>
