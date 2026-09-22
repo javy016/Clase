@@ -25,7 +25,7 @@ Tiene una alternativa conservada para gran parte de archivos pero no para todos 
 # 4. Parte D - Marcas y programación
 <img width="437" height="208" alt="image" src="https://github.com/user-attachments/assets/0810719e-d5fd-4e6a-8821-822b1ab10a1b" />
 
-Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios, pero escribiría el código en español en vez de inglés para mayor facilidad para nike españa, usa a su vez aparte de código en JavaScript, también usa React
+Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios, ya que usa también React y esta muy bien realizado el hecho de que elegir el tamaño de cada prenda use una etiqueta <button>.
 
 # 5. Parte E - Herramientas y prueba
 <br>
