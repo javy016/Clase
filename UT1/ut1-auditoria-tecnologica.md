@@ -41,7 +41,8 @@ Cumple con los criterios de accesibilidad
 
 5. simulación de red lenta o error, si la aplicación realiza peticiones.
 La simulación es rapida no tarda ni da error aunque lo ponga en 3G
-![alt text](image-3.png)
+<img width="431" height="523" alt="image" src="https://github.com/user-attachments/assets/aada469d-d0b8-4342-bf6e-213dd907859a" />
+
 
 (Ahora si lo pongo ofline claramente me va a dar error que no se puede cargar la página por no tener conexión a internet).
 
