@@ -1,6 +1,7 @@
 ##  __Página web de Nike__
 # 1. Parte A - Reconstrucción cliente/servidor
-[![alt text](image.png)](https://github.com/javy016/Clase/blob/main/UT1/imagenes/image-1.png?raw=true)
+<img width="516" height="126" alt="image" src="https://github.com/user-attachments/assets/195159e6-452f-4d73-a283-58dbc386c7eb" />
+
 
 ```mermaid
 flowchart TB
