@@ -13,7 +13,7 @@ flowchart TB
 ```
 
 # 2. Parte B - Capacidades del navegador
-En mi caso escogí las cookies que resuelve la persistencia de datos para mantener los productos en el carrito de compras, recordar sesiones  realizar seguimiento de cashback. Nos pone una notificación para aceptar o denegar el permiso, si se deniega se producen fallos técnicos como la pérdida de dicho carrito de compras, cierre sesión inmediato, etc. Y este mete riesgos de privacidad con el perfil sobre la publicidad. Como alternativa esta acceder desde la aplicación móvil.
+En mi caso escogí las cookies que resuelve la persistencia de datos para mantener los productos en el carrito de compras, recordar sesiones  realizar seguimiento de cashback. Nos pone una notificación para aceptar o denegar el permiso, si se deniega se producen fallos técnicos como la pérdida de dicho carrito de compras, cierre sesión inmediato, etc. Y este mete riesgos de privacidad con el perfil sobre la publicidad. Como alternativa esta acceder desde la aplicación móvil. También usa LocalStorage para guardar archivos en el navegador local y también usa la geolocalización para buscar las tiendas cercanas.
 
 # 3. Parte C - Lenguajes y Scripts
 <img width="516" height="126" alt="image" src="https://github.com/user-attachments/assets/195159e6-452f-4d73-a283-58dbc386c7eb" />
