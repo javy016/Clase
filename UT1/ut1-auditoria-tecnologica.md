@@ -28,18 +28,23 @@ Por lo general veo el código muy bien estructurado y simplificado sin necesidad
 
 # 5. Parte E - Herramientas y prueba
 1. observación manual con DevTools;
+ <br>
 Realiza correctamente los cambios de tamaño correctamente redimensionando automáticamente
-   
+   <br>
 2. validación estática de HTML o CSS;
+<br>
 Algunos errores de escritura en el código por no cerrar bien las etiquetas, propiedad meta y propiedades escritas sin comillas.
-
+<br>
 3. recorrido funcional con resultado esperado;
+   <br>
 Actualiza correctamente el carrito de compra al agregar o reducir cantidades
-
+<br>
 4. comprobación básica con teclado;
+   <br>
 Cumple con los criterios de accesibilidad
-
+<br>
 5. simulación de red lenta o error, si la aplicación realiza peticiones.
+<br>
 La simulación es rapida no tarda ni da error aunque lo ponga en 3G
 <img width="431" height="523" alt="image" src="https://github.com/user-attachments/assets/aada469d-d0b8-4342-bf6e-213dd907859a" />
 
