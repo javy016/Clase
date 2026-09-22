@@ -27,6 +27,7 @@ En este ejemplo podemos comprobar el html que hace uso de mains para crear como 
 Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios, pero escribiria el código en español en vez de inglés para mayor facilidad para nike españa
 
 # 5. Parte E - Herramientas y prueba
+<br>
 1. observación manual con DevTools;
  <br>
 Realiza correctamente los cambios de tamaño correctamente redimensionando automáticamente.
