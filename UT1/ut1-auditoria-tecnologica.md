@@ -24,7 +24,7 @@ En este ejemplo podemos comprobar el html que hace uso de mains para crear como 
 # 4. Parte D - Marcas y programación
 <img width="437" height="208" alt="image" src="https://github.com/user-attachments/assets/0810719e-d5fd-4e6a-8821-822b1ab10a1b" />
 
-Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios, pero escribiria el código en español en vez de inglés para mayor facilidad para nike españa
+Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios, pero escribiría el código en español en vez de inglés para mayor facilidad para nike españa, usa a su vez aparte de código en JavaScript, también usa React
 
 # 5. Parte E - Herramientas y prueba
 <br>
