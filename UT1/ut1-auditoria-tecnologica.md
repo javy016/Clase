@@ -28,6 +28,7 @@ Por lo general veo el código muy bien estructurado y simplificado sin necesidad
 
 # 5. Parte E - Herramientas y prueba
 1. observación manual con DevTools;
+ <br>
 Realiza correctamente los cambios de tamaño correctamente redimensionando automáticamente.
    <br>
 2. validación estática de HTML o CSS;
@@ -45,9 +46,9 @@ Cumple con los criterios de accesibilidad
 5. simulación de red lenta o error, si la aplicación realiza peticiones.
 <br>
 La simulación es rapida no tarda ni da error aunque lo ponga en 3G
+<br>
 <img width="431" height="523" alt="image" src="https://github.com/user-attachments/assets/aada469d-d0b8-4342-bf6e-213dd907859a" />
-
-
+<br>
 (Ahora si lo pongo ofline claramente me va a dar error que no se puede cargar la página por no tener conexión a internet).
 
 
