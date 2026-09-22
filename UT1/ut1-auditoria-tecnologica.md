@@ -22,6 +22,22 @@ En este ejemplo podemos comprobar el html que hace uso de mains para crear como 
 Por lo general veo el código muy bien estructurado y simplificado sin necesidad de más cambios, pero escribiria el código en español en vez de inglés para mayor facilidad para nike españa
 
 # 5. Parte E - Herramientas y prueba
-La simulación es rapida no tarda ni da error
+1. observación manual con DevTools;
+Realiza correctamente los cambios de tamaño correctamente redimensionando automáticamente
+   
+2. validación estática de HTML o CSS;
+Algunos errores de escritura en el código por no cerrar bien las etiquetas, propiedad meta y propiedades escritas sin comillas.
 
+3. recorrido funcional con resultado esperado;
+Actualiza correctamente el carrito de compra al agregar o reducir cantidades
+
+4. comprobación básica con teclado;
+Cumple con los criterios de accesibilidad
+
+5. simulación de red lenta o error, si la aplicación realiza peticiones.
+La simulación es rapida no tarda ni da error aunque lo ponga en 3G
 ![alt text](image-3.png)
+
+(Ahora si lo pongo ofline claramente me va a dar error que no se puede cargar la página por no tener conexión a internet).
+
+
