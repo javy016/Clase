@@ -16,10 +16,11 @@ flowchart TB
 En mi caso escogí las cookies que resuelve la persistencia de datos para mantener los productos en el carrito de compras, recordar sesiones  realizar seguimiento de cashback. Nos pone una notificación para aceptar o denegar el permiso, si se deniega se producen fallos técnicos como la pérdida de dicho carrito de compras, cierre sesión inmediato, etc. Y este mete riesgos de privacidad con el perfil sobre la publicidad. Como alternativa esta acceder desde la aplicación móvil. También usa LocalStorage para guardar archivos en el navegador local y también usa la geolocalización para buscar las tiendas cercanas.
 
 # 3. Parte C - Lenguajes y Scripts
-<img width="516" height="126" alt="image" src="https://github.com/user-attachments/assets/195159e6-452f-4d73-a283-58dbc386c7eb" />
+**Clasificación:**
+Función esencial conservada: la acción principal tiene alternativa.
+Tiene una alternativa conservada para gran parte de archivos pero no para todos como diferentes imágenes de unas zapatillas concretas
 
 
-En este ejemplo podemos comprobar el html que hace uso de mains para crear como cuadros de su catálogo, también tenemos el css para dar diseño y el javascript para hacer cosas como puede ser seleccionar métodos de pago
 
 # 4. Parte D - Marcas y programación
 <img width="437" height="208" alt="image" src="https://github.com/user-attachments/assets/0810719e-d5fd-4e6a-8821-822b1ab10a1b" />
