@@ -7,7 +7,7 @@
 
 ```mermaid
 flowchart TB
-    A(["Start"]) --> B{"Mandar peticion"}
+    A(["Inicio"]) --> B{"Mandar peticion"}
     B --> C["El servidor recibe la petición"]
     C --> n1["El servidor nos manda la respuesta"]
 ```
