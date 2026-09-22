@@ -33,7 +33,7 @@ Por lo general veo el código muy bien estructurado y simplificado sin necesidad
 Realiza correctamente los cambios de tamaño correctamente redimensionando automáticamente, se puede inspeccionar y realizar todas las acciones de devtools  
 
 2. validación estática de HTML o CSS;  
-Algunos errores de escritura en el código por no cerrar bien las etiquetas, propiedad meta y propiedades escritas sin comillas.  
+Algunos errores de escritura en el código por no cerrar bien las etiquetas, propiedad <meta> y propiedades escritas sin comillas.  
 
 3. recorrido funcional con resultado esperado;  
 Actualiza correctamente el carrito de compra al agregar o reducir cantidades  
