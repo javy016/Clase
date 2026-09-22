@@ -17,8 +17,8 @@ En mi caso escogí las cookies que resuelve la persistencia de datos para manten
 
 # 3. Parte C - Lenguajes y Scripts
 **Clasificación:**
-Función esencial conservada: la acción principal tiene alternativa.
-Tiene una alternativa conservada para gran parte de archivos pero no para todos como diferentes imágenes de unas zapatillas concretas
+Contenido conservado, acción perdida
+Tiene una alternativa conservada para gran parte de archivos pero no para todos como ver diferentes imágenes de unas zapatillas concretas y se pierde la acción de añadir a la cesta, solo deja guardarlo en favorito.
 
 
 
