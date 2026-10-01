@@ -1,4 +1,4 @@
-# CE2.a  
+# Ejercicio 1 
 | Tipo                           | Responsabilidad |                                                          Justificación                                                          |
 |--------------------------------|:---------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
 | Previsualizar cuota            |     Servidor    |                     Se encarga el servidor de definir la cuota de almacenamiento  que pueda usar el cliente.                    |
@@ -6,16 +6,12 @@
 | Autorizar una transferencia    |      Ambos      |   En este caso pongo que la responsabilidad de los dos ya que se tiene que autorizar una transferencia entrante como saliente.  |
 | Ordenar resultados descargados |     Cliente     | Para ordenar los resultados lo podrá hacer el cliente ya que no necesita acceder al servidor una vez descargado dicho archivos. |  
 
-# CE2.b  
+# Ejercicio 2
 https://github.com/javy016/Clase/tree/main/UT2/Práctica.%20Actividades%20UT2/CE2.b
-# CE2.c  
+# Ejercicio 3 
 
-# CE2.d  
+# Ejercicio 4  
 
-# CE2.e
+# Ejercicio 5
 
-# CE2.f  
 
-# CE2.g  
-
-# CE2.h  
