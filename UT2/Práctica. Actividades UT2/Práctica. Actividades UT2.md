@@ -10,9 +10,12 @@
 https://github.com/javy016/Clase/tree/main/UT2/Práctica.%20Actividades%20UT2/Actividad2  
 
 # Ejercicio 3 
+https://github.com/javy016/Clase/tree/main/UT2/Práctica.%20Actividades%20UT2/Actividad3  
 
 # Ejercicio 4  
+https://github.com/javy016/Clase/tree/main/UT2/Práctica.%20Actividades%20UT2/Actividad4  
 
 # Ejercicio 5
+https://github.com/javy016/Clase/tree/main/UT2/Práctica.%20Actividades%20UT2/Actividad5  
 
 
