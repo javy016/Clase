@@ -19,7 +19,7 @@ if(aceptaNormas !== true){
     error.push("Debes aceptar las nombras");
 }
 
-// Retornar resultado
+// Devolver resultado
 if(error.length > 0) {
     return{
         valido:false,
@@ -37,7 +37,7 @@ return{
 };
 }
 
-// Mostrar un ejemplo
+// Mostrar ejemplos
 
 const resultado = normalizarParticipante(" Ada ", "17", true);
 console.log(resultado);
