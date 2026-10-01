@@ -37,7 +37,7 @@ function analizarRondas(rondas) {
   };
 }
 
-// Versión con métodos de array (para comparar)
+// Comparrar con métodos array
 function analizarRondasFuncional(rondas) {
   if (!Array.isArray(rondas)) {
     return { total: 0, media: null, maximo: 0, cantidad: 0 };
@@ -69,6 +69,5 @@ function analizarRondasFuncional(rondas) {
   };
 }
 
-// Prueba obligatoria
+// Prueba 
 console.log(analizarRondas([10, 7, -2, Number.NaN, 5]));
-// { total: 22, media: 7.333333333333333, maximo: 10, cantidad: 3 }
