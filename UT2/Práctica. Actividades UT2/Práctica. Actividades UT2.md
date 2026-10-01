@@ -7,7 +7,8 @@
 | Ordenar resultados descargados |     Cliente     | Para ordenar los resultados lo podrá hacer el cliente ya que no necesita acceder al servidor una vez descargado dicho archivos. |  
 
 # Ejercicio 2
-https://github.com/javy016/Clase/tree/main/UT2/Práctica.%20Actividades%20UT2/CE2.b
+https://github.com/javy016/Clase/tree/main/UT2/Práctica.%20Actividades%20UT2/Actividad2  
+
 # Ejercicio 3 
 
 # Ejercicio 4  
