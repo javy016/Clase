@@ -25,7 +25,7 @@ Las acciones son las siguientes:
      * Agua: 1
    * Efecto:  
     * Comida: 12
-  * Amenaza: 2  
+   * Amenaza: 2  
 * Animar:
   * Coste:
     * Comida: 1
