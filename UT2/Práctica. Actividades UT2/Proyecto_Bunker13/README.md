@@ -32,5 +32,16 @@ Las acciones son las siguientes:
   * Efecto:  
     * Moral: 12
   * Amenaza: 0
-  
+    
+# 3. Reglas:  
+## 3.1 Resultado:  
+  * Victoria: Completar el turno 10 con algún superviviente y moral +0.  
+  * Derrota: Si el agua, comida, energía o moral llegan a 0 o no queda ningún superviviente.
+## 3.2 Estado:
+Primero la partida comenzará siempre desde una función que nos dará un estado inicial para cuando comencemos la partida.
+* Estado: nos mostrará el estado del bunker y acciones que se puedan realizar que son "racionar", "explorar", "reparar", "cultivar" o "animar", (Si no se escribe por texto genera un error y bucle para pedir de nuevo que digamos que acción queremos realizar).
+Una vez elegida la acción realizará su funcionalidad y guardará un resumen del turno en historial que será un vector.
+
+    
+
   
