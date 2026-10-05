@@ -23,7 +23,7 @@ Las acciones son las siguientes:
    * Coste:
      * Energía: 4
      * Agua: 1
-  * Efecto:  
+   * Efecto:  
     * Comida: 12
   * Amenaza: 2  
 * Animar:
