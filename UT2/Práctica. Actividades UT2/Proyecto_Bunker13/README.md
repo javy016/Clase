@@ -21,8 +21,8 @@ Las acciones son las siguientes:
   * Amenaza: -5
  * Cultivar:
    * Coste:
-    * Energía: 4
-    * Agua: 1
+     * Energía: 4
+     * Agua: 1
   * Efecto:  
     * Comida: 12
   * Amenaza: 2  
