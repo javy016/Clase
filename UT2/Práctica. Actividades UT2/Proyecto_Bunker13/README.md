@@ -45,8 +45,8 @@ Una vez elegida la acción realizará su funcionalidad y guardará un resumen de
 * crearEstadoInicial: Nos da el estado inicial del juego.  
 * validarEstado: Comprueba que existan datos y sino genera un error.  
 * puedeEjecutarse: Usa un valor booleano.
- * True: Acción existe y se puede pagar costes.
- * False: No existe o no se puede pagar costes.   
+  * True: Acción existe y se puede pagar costes.
+  * False: No existe o no se puede pagar costes.   
 * Aplicar acción: Aplica coste y efectos, y genera un estado nuevo.
 
     
