@@ -14,8 +14,8 @@ Las acciones son las siguientes:
   * Amenaza: 15  
 * Reparar:
   * Coste:
-   * Chatarra: 3 
-   * Energía: 4  
+    * Chatarra: 3 
+    * Energía: 4  
   * Efecto:  
     * Energía: 8
   * Amenaza: -5
