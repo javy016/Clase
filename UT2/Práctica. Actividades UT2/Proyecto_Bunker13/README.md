@@ -28,7 +28,7 @@ Las acciones son las siguientes:
   * Amenaza: 2  
 * Cultivar:
   * Coste:
-   * Comida: 1
+    * Comida: 1
   * Efecto:  
     * Moral: 12
   * Amenaza: 0
