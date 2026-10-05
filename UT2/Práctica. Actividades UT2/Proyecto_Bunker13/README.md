@@ -40,7 +40,14 @@ Las acciones son las siguientes:
 ## 3.2 Estado:
 Primero la partida comenzará siempre desde una función que nos dará un estado inicial para cuando comencemos la partida.
 * Estado: nos mostrará el estado del bunker y acciones que se puedan realizar que son "racionar", "explorar", "reparar", "cultivar" o "animar", (Si no se escribe por texto genera un error y bucle para pedir de nuevo que digamos que acción queremos realizar).
-Una vez elegida la acción realizará su funcionalidad y guardará un resumen del turno en historial que será un vector.
+Una vez elegida la acción realizará su funcionalidad y guardará un resumen del turno en historial que será un vector.  
+## 3.3 Funciones:
+* crearEstadoInicial: Nos da el estado inicial del juego.  
+* validarEstado: Comprueba que existan datos y sino genera un error.  
+* puedeEjecutarse: Usa un valor booleano.
+ * True: Acción existe y se puede pagar costes.
+ * False: No existe o no se puede pagar costes.   
+* Aplicar acción: Aplica coste y efectos, y genera un estado nuevo.
 
     
 
