@@ -48,6 +48,8 @@ Una vez elegida la acción realizará su funcionalidad y guardará un resumen de
   * True: Acción existe y se puede pagar costes.
   * False: No existe o no se puede pagar costes.   
 * Aplicar acción: Aplica coste y efectos, y genera un estado nuevo.
+* resolverTurno: Devuelve el estado actualizado y un resumen de como va al siguiente dia.
+* comprobarFinal: Devuelve un objeto comprobando si a finaliza o no, si no finalizo la partida el resultado será "null".
 
     
 
