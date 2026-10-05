@@ -41,7 +41,11 @@ Las acciones son las siguientes:
 Primero la partida comenzará siempre desde una función que nos dará un estado inicial para cuando comencemos la partida.
 * Estado: nos mostrará el estado del bunker y acciones que se puedan realizar que son "racionar", "explorar", "reparar", "cultivar" o "animar", (Si no se escribe por texto genera un error y bucle para pedir de nuevo que digamos que acción queremos realizar).
 Una vez elegida la acción realizará su funcionalidad y guardará un resumen del turno en historial que será un vector.  
-## 3.3 Funciones:
+## 3.3 Incidentes:
+* 0-39: Ningún incidente.
+* 40-69: Alarma exterior (-5 moral).
+* 70-100: Ataque zombie (-1 superviviente, -10 moral.  
+## 3.4 Funciones:
 * crearEstadoInicial: Nos da el estado inicial del juego.  
 * validarEstado: Comprueba que existan datos y sino genera un error.  
 * puedeEjecutarse: Usa un valor booleano.
