@@ -26,7 +26,7 @@ Las acciones son las siguientes:
   * Efecto:  
     * Comida: 12
   * Amenaza: 2  
-* Cultivar:
+* Animar:
   * Coste:
     * Comida: 1
   * Efecto:  
