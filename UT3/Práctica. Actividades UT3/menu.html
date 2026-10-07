@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Práctica UT3</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header><h1>Práctica UT3 — Registros</h1></header>
+  <main>
+    <section id="panel">
+      <h2>Actividad 2</h2>
+      <button id="revelar" type="button">Revelar registros</button>
+      <p id="estado" role="status">Pendiente de revelar.</p>
+      <ul id="registros"></ul>
+    </section>
+
+    <section>
+      <h2>Actividad 3</h2>
+      <p>Registro actual: <strong id="registro-url">—</strong></p>
+      <nav>
+        <button type="button" data-ir="r1">r1</button>
+        <button type="button" data-ir="r2">r2</button>
+        <button type="button" data-ir="r3">r3</button>
+      </nav>
+    </section>
+
+    <section>
+      <h2>Actividad 4</h2>
+      <p>Progreso: <span id="progreso-info">—</span></p>
+      <button id="btn-ficha" type="button">Abrir ficha auxiliar</button>
+      <button id="btn-fallo" type="button">Simular fallo de escritura</button>
+      <div id="aviso" role="alert" hidden></div>
+      <div id="ficha-inline" hidden></div>
+    </section>
+  </main>
+
+  <script type="module" src="js/actividad1.js"></script>
+  <script type="module" src="js/actividad2.js"></script>
+  <script type="module" src="js/actividad3.js"></script>
+  <script type="module" src="js/actividad4.js"></script>
+</body>
+</html>
