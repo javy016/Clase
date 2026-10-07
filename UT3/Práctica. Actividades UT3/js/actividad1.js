@@ -32,7 +32,7 @@ for (const [zona, lista] of porZona) {
   console.log(`Zona "${zona}": ${lista.length} registros distintos`);
 }
 
-// 5) Tres casos
+// 4) Tres casos
 console.log("Caso 1 (existe r2):", idsUnicos.has("r2"));                       
 console.log("Caso 2 (duplicado r4 se guarda una vez):",
   mapId.get("r4").texto === "Se imprimió una lista de salida.");               
