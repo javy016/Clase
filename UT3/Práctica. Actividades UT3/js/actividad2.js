@@ -10,7 +10,7 @@ const estado = document.getElementById("estado");
 const lista = document.getElementById("registros");
 const panel = document.getElementById("panel");
 
-const TEXTO_PRUEBA = '<img src=x onerror=alert(1)>';
+const TEXTO_PRUEBA = '<p onerror=alert(1)>';
 let revelado = false;
 
 btn.addEventListener("click", () => {

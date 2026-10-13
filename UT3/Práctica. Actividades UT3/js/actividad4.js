@@ -5,58 +5,88 @@ const registros = [
   { id: "r4", zona: "oficina", texto: "Se imprimió una lista de salida.", fecha: "2026-10-07T09:18:00+02:00" },
 ];
 
-const revelar = document.querySelector("#revelar");
-const salida = document.querySelector("#resultado");
-
-if (!(revelar instanceof HTMLButtonElement)
-    || !(salida instanceof HTMLElement)) {
-  throw new Error("Faltan los controles del juego");
-}
-
-revelar.addEventListener("click", () => {
-  const mensaje = "Has descubierto una pista";
-  salida.textContent = mensaje;
-});
+const porId = new Map();
+for (const r of registros) if (!porId.has(r.id)) porId.set(r.id, r);
+const idsValidos = new Set(porId.keys());
 
 const CLAVE = "registros-ut3:v1:progreso";
-const IDS = new Set(["r1", "r2", "r3"]);
-function crearProgresoInicial() {
-  return { version: 1, vistos: [], registroActual: null };
+const VERSION = 1;
+const ID_INICIAL = "r1";
+
+const info = document.getElementById("progreso-info");
+const btnFicha = document.getElementById("btn-ficha");
+const btnFallo = document.getElementById("btn-fallo");
+const aviso = document.getElementById("aviso");
+const fichaInline = document.getElementById("ficha-inline");
+
+let falloSimulado = false;
+
+
+const estadoInicial = () => ({ version: VERSION, registroActual: ID_INICIAL, vistos: [ID_INICIAL] });
+
+function validar(o) {
+  return o && typeof o === "object"
+    && o.version === VERSION
+    && idsValidos.has(o.registroActual)
+    && Array.isArray(o.vistos)
+    && o.vistos.every(v => idsValidos.has(v))
+    && new Set(o.vistos).size === o.vistos.length;
 }
 
-function esProgreso(valor) {
-  return valor !== null
-    && typeof valor === "object"
-    && valor.version === 1
-    && Array.isArray(valor.vistos)
-    && valor.vistos.every((id) => IDS.has(id))
-    && new Set(valor.vistos).size === valor.vistos.length
-    && (valor.registroActual === null || IDS.has(valor.registroActual))
-    && (valor.registroActual === null || valor.vistos.includes(valor.registroActual));
-}
-
-function cargarProgreso(almacen) {
+function leer() {
   try {
-    const destino = almacen ?? window.localStorage;
-    const texto = destino.getItem(CLAVE);
-    if (texto === null) return crearProgresoInicial();
-    const valor = JSON.parse(texto);
-    if (!esProgreso(valor)) throw new TypeError("Progreso inválido");
-    return valor;
-  } catch (error) {
-    console.warn("No se pudo recuperar el progreso", error);
-    return crearProgresoInicial();
-  }
+    const raw = localStorage.getItem(CLAVE);
+    if (!raw) return estadoInicial();
+    const obj = JSON.parse(raw);
+    return validar(obj) ? obj : estadoInicial();
+  } catch { return estadoInicial(); }
 }
 
-function guardarProgreso(progreso, almacen) {
-  try {
-    if (!esProgreso(progreso)) throw new TypeError("Progreso inválido");
-    const destino = almacen ?? window.localStorage;
-    destino.setItem(CLAVE, JSON.stringify(progreso));
-    return true;
-  } catch (error) {
-    console.warn("La partida continuará sin guardado", error);
-    return false;
-  }
+function guardar(obj) {
+  if (falloSimulado) throw new Error("escritura simulada fallida");
+  localStorage.setItem(CLAVE, JSON.stringify(obj));   // JSON.stringify, sin Date/Set/Map
 }
+
+function render(obj, msg = "") {
+  info.textContent = `actual=${obj.registroActual} · vistos=[${obj.vistos.join(", ")}]`;
+  aviso.hidden = !msg;
+  if (msg) aviso.textContent = msg;
+}
+
+// Arranque
+const estado = leer();
+try { guardar(estado); } catch {}
+render(estado);
+
+
+btnFicha.addEventListener("click", () => {
+  const r = porId.get(estado.registroActual);
+  const html = `<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+    <title>Ficha ${r.id}</title></head><body>
+    <h1>Ficha ${r.id}</h1>
+    <p>Zona: ${r.zona}</p>
+    <p>Texto: ${r.texto}</p>
+    <p>Fecha: ${r.fecha}</p>
+    </body></html>`;
+
+  const win = window.open("", "_blank", "width=400,height=300");
+  if (win) {
+    win.document.write(html);
+    win.document.close();
+  } else {
+    fichaInline.hidden = false;
+    fichaInline.textContent = `Ficha ${r.id} — ${r.zona} — ${r.texto} — ${r.fecha}`;
+  }
+});
+
+btnFallo.addEventListener("click", () => {
+  falloSimulado = !falloSimulado;
+  const obj = leer();
+  if (!obj.vistos.includes(obj.registroActual)) obj.vistos.push(obj.registroActual);
+  try {
+    guardar(obj);
+    render(obj, "Guardado correcto.");
+  } catch (e) {
+    render(obj, `No se pudo guardar: ${e.message}. La pantalla sigue funcionando.`);
+  }
+});
