@@ -1,39 +1,38 @@
-// Datos 
 const registros = [
-  { id: "r1", zona: "entrada", texto: "La puerta se abrio a las 09:10.", fecha: "2026-10-07T09:10:00+02:00" },
-  { id: "r2", zona: "entrada", texto: "El lector registro una tarjeta.", fecha: "2026-10-07T09:11:00+02:00" },
-  { id: "r3", zona: "almacén", texto: "Falta una caja del inventario.", fecha: "2026-10-07T09:15:00+02:00" },
-  { id: "r4", zona: "oficina", texto: "Se imprimió una lista de salida.", fecha: "2026-10-07T09:18:00+02:00" },
-  { id: "r4", zona: "oficina", texto: "Registro duplicado para la prueba.", fecha: "2026-10-07T09:18:00+02:00" },
+  { id: "r1", zona: "entrada", texto: "Puerta abierta",       fecha: "2026-10-07T09:10:00+02:00" },
+  { id: "r2", zona: "almacén", texto: "Caja ausente",         fecha: "2026-10-07T09:15:00+02:00" },
+  { id: "r3", zona: "entrada", texto: "Tarjeta registrada",   fecha: "2026-10-07T09:18:00+02:00" },
+  { id: "r2", zona: "almacén", texto: "Copia del registro",   fecha: "2026-10-07T09:15:00+02:00" },
 ];
 
-// 1) Set de identificadores únicos
-const setID  = new Set(registros.map(r => r.id));
-console.log("Set de ids únicos:", setID);
-console.log("Tamaño del Set:", setID.size);
+// 1) Set: 
+const ids = new Set(registros.map(({ id }) => id));
+console.log("Set de ids únicos:", ids);
+console.log("Tamaño del Set:", ids.size);        // 3
 
-// 2) Map que agrupa por zona.
-
-const mapId = new Map();
-for (const r of registros) {
-  if (!mapId.has(r.id)) mapId.set(r.id, r); 
+// 2) Map: 
+const porId = new Map();
+for (const registro of registros) {
+  if (!porId.has(registro.id)) porId.set(registro.id, registro);
 }
-console.log("Map id - registro :", mapId);
+console.log("Map id - registro:", porId);
+console.log("porId.get('r2').texto:", porId.get("r2").texto); 
 
+// 3) Map agrupado por zona 
 const porZona = new Map();
-for (const r of mapId.values()) {
-  if (!porZona.has(r.zona)) porZona.set(r.zona, []);
-  porZona.get(r.zona).push(r);
+for (const registro of porId.values()) {
+  if (!porZona.has(registro.zona)) porZona.set(registro.zona, []);
+  porZona.get(registro.zona).push(registro);
 }
 console.log("Map zona - registros:", porZona);
 
-// 3) Cuántos registros distintos hay en cada zona
 for (const [zona, lista] of porZona) {
-  console.log(`Zona "${zona}": ${lista.length} registros distintos`);
+  console.log(`Zona "${zona}": ${lista.length} registro distinto`);
 }
+// 4) Fechas
 
-// 4) Tres casos
-console.log("Caso 1 (existe r2):", idsUnicos.has("r2"));                       
-console.log("Caso 2 (duplicado r4 se guarda una vez):",
-  mapId.get("r4").texto === "Se imprimió una lista de salida.");               
-console.log("Caso 3 (no existe r99):", idsUnicos.has("r99"));                  
+// 5) Tres casos
+console.log("Caso 1 (existe r2):", ids.has("r2"));                             
+console.log("Caso 2 (duplicado r2 se conserva el primero):",
+  porId.get("r2").texto === "Caja ausente");                                   
+console.log("Caso 3 (no existe r99):", ids.has("r99"));                              
