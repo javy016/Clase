@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Actividades UT3</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Actividad 1. Organizar los registros</h1>
+        <p id="salida-identificadores"></p>
+        <ul id="salida-zonas"></ul>
+        <p id="salida-fecha"></p>
+      </section>
+
+      <section>
+        <h2>Actividad 2. Mostrar un registro al pulsar</h2>
+        <section id="panel">
+          <p id="estado">Registro pendiente</p>
+          <button id="revelar" type="button">Revelar registro</button>
+          <ul id="registros"></ul>
+        </section>
+      </section>
+
+      <section>
+        <h2>Actividad 3. Elegir un registro desde la URL</h2>
+        <p id="registro-actual">Registro actual: r1</p>
+      </section>
+
+      <section>
+        <h2>Actividad 4. Guardar el progreso y abrir una ficha</h2>
+        <p id="estado-progreso"></p>
+        
+        <button id="simular-fallo-escritura" type="button">
+          Simular fallo de escritura
+        </button>
+        <button id="abrir-ficha" type="button">Ver ficha</button>
+
+        <section id="ficha-local" hidden>
+          <h3>Ficha del registro</h3>
+          <dl>
+            <dt>Identificador</dt>
+            <dd id="ficha-id-local"></dd>
+
+            <dt>Zona</dt>
+            <dd id="ficha-zona-local"></dd>
+
+            <dt>Texto</dt>
+            <dd id="ficha-texto"></dd>
+
+            <dt>Fecha</dt>
+            <dd id="ficha-fecha-local"></dd>
+          </dl>
+        </section>
+      </section>
+        
+      <section>
+        <h2>Actividad 5. Encontrar y corregir errores</h2>
+        <p>Información sobre errores y correcciones en el README.md</p>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
