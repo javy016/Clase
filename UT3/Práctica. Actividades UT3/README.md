@@ -1,3 +1,5 @@
+## Recordatorio para abrir servidor, hay que usar "npx serve ." en la cmd de dicha carpeta para hacer un servidor y actue la página de forma correcta.
+
 # Actividad 1:  
 <p>Use un Array para guardar los regisotros luego para los id únicos uso un set para quitar duplicados y para agrupar por zonas uso un Map, teniendo en cuenta que no se repitan y la fecha formateada usando Date y también DateTimeFormat.</p>  
 
@@ -23,7 +25,7 @@ Podemos ver esta clave y cambiarla en el apartado de navegador Devtools "aplicac
 Dará el siguiente error:  
 ![alt text](image-1.png)   
 
-3.  Duplicar la funcion de revelar.addEventListener y hacemos breackpoints en cada 1 de las dos funciones duplicadas en el navegador en el apartado sources y veremos que saldrá cada una en callback:
+3.  Duplicar la funcion de revelar.addEventListener y hacemos breackpoints en cada 1 de las dos funciones duplicadas en el navegador en el apartado sources y veremos que saldrá cada una en callback:  
 Callback 1:   
 ![alt text](image-2.png)  
 
